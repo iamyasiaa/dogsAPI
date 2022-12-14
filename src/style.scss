@@ -1,0 +1,13 @@
+body {
+  background-color: azure;
+}
+.imageDods {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  gap: 30px;
+}
+.image {
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+}
